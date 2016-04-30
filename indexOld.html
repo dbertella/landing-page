@@ -11,9 +11,9 @@
         <meta property="og:image" content="https://buboost.blob.core.windows.net/bsf/images/favicon-196x196.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
         <link rel="canonical" href="index.html" />
+        <link href='https://fonts.googleapis.com/css?family=Cabin:400,500,600,700' rel='stylesheet' type='text/css'>
         <link href="https://buboost.blob.core.windows.net/bsf/assets/css/style.css" rel="stylesheet" type="text/css" media="all"/>
         <link href="https://buboost.blob.core.windows.net/bsf/assets/css/temp.css" rel="stylesheet" type="text/css" media="all"/>
-        <link href="style.css" rel="stylesheet" type="text/css" media="all"/>
         <style>
             .cursor_hand {
                 cursor: pointer;
@@ -29,103 +29,233 @@
         <link rel="stylesheet" href="https://buboost.blob.core.windows.net/bsf/assets/css/outdatedbrowser.min.css"/>
     </head>
     <body class="home">
+        <div id="fb-root"></div>
+<script>
+    var fb_app_id = '755546484467051';
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId: fb_app_id,
+            cookie: true,
+            xfbml: true,
+            version: 'v2.1'
+        });
+    };
 
-        <section id="hero" class="section--dark section--fh">
-          <div id="header" class="row">
-            <div class="homeHeader__left">
-                <div class="home-logo float-left" data-scroll-to="#hero">
-                  <svg width="146px" height="33px" viewBox="0 0 146 33" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                    <!-- fill="#35B9CE" -->
-                    <path fill="#35B9CE" d="M87.3073048,8.71691489 C88.8848,9.0497234 90.3302,9.64442553 91.6421143,10.4982128 C91.8263524,10.6182766 92.0071143,10.7425532 92.1844,10.8717447 C92.4923905,9.58544681 93.0360667,8.40446809 93.8147333,7.32880851 C94.6420667,6.18855319 95.6265238,5.24629787 96.7674095,4.50344681 C97.9089905,3.76059574 99.1652857,3.24453191 100.5356,2.95525532 C101.907305,2.66597872 103.276924,2.67089362 104.645152,2.96929787 C106.014076,3.26840426 107.257857,3.83361702 108.378581,4.66774468 C109.5,5.50046809 110.427448,6.49397872 111.163705,7.64617021 C111.897876,8.7983617 112.408181,10.0678085 112.695314,11.4517021 C112.981752,12.837 112.977581,14.2208936 112.682105,15.6019787 C112.498562,16.4592766 112.236457,17.2540851 111.903438,17.9871064 L113.361352,22.3220426 L109.338705,21.444383 C108.916,21.8179149 108.468962,22.1549362 107.993419,22.4505319 C106.860876,23.1540638 105.621267,23.616766 104.27459,23.8386383 C102.927914,24.0619149 101.57081,24.0225957 100.202581,23.7248936 C99.122181,23.4889787 98.112,23.1077234 97.1706476,22.5797234 C97.1400571,22.7882553 97.1046,22.995383 97.0621905,23.2004043 C96.7347333,24.8054681 96.143781,26.2483404 95.2879429,27.5283191 C94.4328,28.8082979 93.3461429,29.8895745 92.0279714,30.7707447 C90.7104952,31.6540213 89.2657905,32.2655745 87.6917714,32.609617 C86.1177524,32.9522553 84.5562476,32.9971915 83.0072571,32.7409149 C81.4575714,32.4846383 80.0316381,31.9524255 78.7287619,31.1435745 C78.1816095,30.8037447 77.6671333,30.4154681 77.1818571,29.9850638 L72.5543524,30.9954255 L74.2312667,26.009617 C73.8474952,25.1649574 73.5464571,24.2521915 73.3358,23.265 C72.9958286,21.6760851 72.9902667,20.085766 73.3205048,18.4919362 C73.6500476,16.8988085 74.2375238,15.4390851 75.0836286,14.1134681 C75.9297333,12.7878511 76.9969238,11.6461915 78.2858952,10.686383 C79.5748667,9.72868085 81.0063619,9.07710638 82.5810762,8.73376596 C84.1544,8.39042553 85.7298095,8.38480851 87.3073048,8.71691489 Z" id="Fill-1"></path>
-                    <!-- fill="#4DAD4D" -->
-                    <path fill="#4DAD4D" d="M102.330357,25.08 C105.286835,25.08 107.972871,23.9075067 109.959712,21.9966752 C109.959712,21.9966751 114.105688,22.4935414 114.105688,22.4935414 C114.105688,22.4935414 112.434533,18.4715659 112.434533,18.4715659 C113.061666,17.0648335 113.410714,15.5036927 113.410714,13.86 C113.410714,7.66336511 108.449869,2.64 102.330357,2.64 C96.2108449,2.64 91.25,7.66336511 91.25,13.86 C91.25,20.0566349 96.2108449,25.08 102.330357,25.08 Z" id="Oval-1"></path>
-                    <!-- fill="#F5F5F5" -->
-                    <path
-                      fill="#FFFFFF"
-                      d="M120.591829,14.6842979 C120.304,14.9749787 120.139229,15.323234 120.09821,15.7248511 L120.088476,15.9298723 C120.088476,16.4438298 120.26159,16.8819574 120.60921,17.2442553 C120.956133,17.6072553 121.3844,17.7884043 121.89401,17.7884043 L123.317857,17.7884043 C124.313438,17.8354468 125.245752,18.0636383 126.11341,18.4722766 C126.981762,18.881617 127.740267,19.4250638 128.388229,20.1033191 C129.03619,20.7815745 129.5458,21.570766 129.916362,22.4701915 C130.286229,23.3710213 130.471857,24.3238085 130.471857,25.3285532 C130.471857,26.3578723 130.286229,27.3162766 129.916362,28.2044681 C129.5458,29.0933617 129.03619,29.8769362 128.388229,30.5544894 C127.740267,31.2327447 126.981762,31.7768936 126.11341,32.1855319 C125.245752,32.5955745 124.313438,32.8230638 123.317857,32.8694043 L114.427152,32.8694043 L114.427152,27.1526809 L123.074524,27.1526809 C123.56119,27.1295106 123.971381,26.9420426 124.307876,26.5916809 C124.642981,26.240617 124.811229,25.8200426 124.811229,25.3285532 C124.811229,24.8145957 124.631857,24.3820851 124.273114,24.0310213 C123.913676,23.6806596 123.479848,23.5051277 122.970238,23.5051277 L121.685438,23.5051277 C120.666914,23.4468511 119.717914,23.2305957 118.837743,22.8212553 C117.957571,22.4119149 117.193505,21.8691702 116.545543,21.1902128 C115.896886,20.5126596 115.38241,19.7234681 115.000029,18.8226383 C114.618343,17.9232128 114.427152,16.9584894 114.427152,15.9298723 C114.427152,14.8998511 114.612781,13.9414468 114.982648,13.0539574 C115.353905,12.1643617 115.862819,11.3814894 116.510781,10.7039362 C117.159438,10.0256809 117.917248,9.48153191 118.7856,9.07289362 C119.653952,8.66285106 120.586267,8.4353617 121.581152,8.38831915 L130.576143,8.38831915 L130.576143,14.1057447 L121.824486,14.1057447 C121.338514,14.1527872 120.926933,14.3458723 120.591829,14.6842979 L120.591829,14.6842979 Z M137.050895,14.1752553 L137.050895,20.6643191 C137.050895,21.576383 137.218448,22.4238511 137.554248,23.2067234 C137.890048,23.9902979 138.352381,24.6804894 138.943333,25.2758936 C139.53359,25.8727021 140.216314,26.3403191 140.9922,26.6787447 C141.76739,27.0185745 142.607238,27.1877872 143.509657,27.1877872 L145.409743,27.1877872 L145.409743,32.9052128 L143.509657,32.9052128 C141.843171,32.9052128 140.268457,32.5836383 138.786905,31.9404894 C137.305352,31.2973404 136.020552,30.420383 134.932505,29.309617 C133.843762,28.1995532 132.980971,26.9013191 132.344829,25.4170213 C131.707295,23.9320213 131.389571,22.3480213 131.389571,20.6643191 L131.389571,6.84504255 L128.229019,6.84504255 L130.625505,2.74180851 L137.050895,2.74180851 L137.050895,8.4936383 L145.409743,8.4936383 L145.409743,14.1752553 L137.050895,14.1752553 L137.050895,14.1752553 Z M59.3503905,27.1877872 C60.2305619,27.1877872 61.0641524,27.0185745 61.8518571,26.6787447 C62.6381714,26.3403191 63.3271524,25.8727021 63.9181048,25.2758936 C64.5083619,24.6804894 64.9713905,23.9902979 65.3064952,23.2067234 C65.6422952,22.4238511 65.8105429,21.576383 65.8105429,20.6643191 C65.8105429,19.7522553 65.6422952,18.9047872 65.3064952,18.1219149 C64.9713905,17.3383404 64.5083619,16.6488511 63.9181048,16.0520426 C63.3271524,15.4559362 62.6381714,14.9883191 61.8518571,14.6491915 C61.0641524,14.310766 60.2305619,14.1401489 59.3503905,14.1401489 C58.4479714,14.1401489 57.6081238,14.310766 56.8329333,14.6491915 C56.0570476,14.9883191 55.3743238,15.4559362 54.7840667,16.0520426 C54.1938095,16.6488511 53.730781,17.3383404 53.394981,18.1219149 C53.059181,18.9047872 52.8916286,19.7522553 52.8916286,20.6643191 C52.8916286,21.576383 53.059181,22.4238511 53.394981,23.2067234 C53.730781,23.9902979 54.1938095,24.6804894 54.7840667,25.2758936 C55.3743238,25.8727021 56.0570476,26.3403191 56.8329333,26.6787447 C57.6081238,27.0185745 58.4479714,27.1877872 59.3503905,27.1877872 L59.3503905,27.1877872 Z M59.3503905,8.45923404 C61.0182667,8.45923404 62.5860286,8.77448936 64.0564571,9.40570213 C65.5261905,10.0369149 66.8116857,10.9082553 67.9115524,12.0183191 C69.0107238,13.1297872 69.8742095,14.4273191 70.4985333,15.911617 C71.1242476,17.3973191 71.4371048,18.980617 71.4371048,20.6643191 C71.4371048,22.3480213 71.1242476,23.9320213 70.4985333,25.4170213 C69.8742095,26.9013191 69.0107238,28.1995532 67.9115524,29.309617 C66.8116857,30.420383 65.5261905,31.2973404 64.0564571,31.9404894 C62.5860286,32.5836383 61.0182667,32.9052128 59.3503905,32.9052128 C57.6839048,32.9052128 56.1091905,32.5836383 54.6283333,31.9404894 C53.1460857,31.2973404 51.8612857,30.420383 50.7732381,29.309617 C49.6844952,28.1995532 48.8217048,26.9013191 48.1855619,25.4170213 C47.5480286,23.9320213 47.2303048,22.3480213 47.2303048,20.6643191 L47.2303048,4.35529787 L52.8916286,4.35529787 L52.8916286,10.3528723 C53.8169905,9.74482979 54.8243905,9.27791489 55.9124381,8.95002128 C57.0004857,8.62282979 58.1469333,8.45923404 59.3503905,8.45923404 L59.3503905,8.45923404 Z M35.8944476,32.8342979 C34.4636476,32.8307872 33.1364381,32.5443191 31.8829238,31.9748936 C30.6210667,31.4026596 29.509381,30.6310213 28.5492571,29.6599787 C27.5884381,28.6903404 26.8243714,27.5683404 26.2570571,26.2932766 C25.6897429,25.0189149 25.4019143,23.6687234 25.4019143,22.2427021 L25.4019143,8.45923404 L31.0625429,8.45923404 L31.0625429,22.2427021 C31.0625429,22.8514468 31.2008952,23.4468511 31.4789905,24.0310213 C31.7563905,24.6158936 32.1213905,25.1361702 32.5732952,25.5918511 C33.0245048,26.048234 33.5452381,26.4161489 34.1361905,26.697 C34.716019,26.972234 35.3034952,27.1133617 35.8944476,27.1175745 C36.4854,27.1133617 37.0728762,26.972234 37.6534,26.697 C38.2436571,26.4161489 38.7643905,26.048234 39.2156,25.5918511 C39.6675048,25.1361702 40.0325048,24.6158936 40.3099048,24.0310213 C40.588,23.4468511 40.7270476,22.8514468 40.7270476,22.2427021 L40.7270476,8.45923404 L46.386981,8.45923404 L46.386981,22.2427021 C46.386981,23.6687234 46.0991524,25.0189149 45.5318381,26.2932766 C44.9645238,27.5683404 44.2004571,28.6903404 43.2396381,29.6599787 C42.2795143,30.6310213 41.1678286,31.4026596 39.9059714,31.9748936 C38.6524571,32.5443191 37.3252476,32.8307872 35.8944476,32.8342979 L35.8944476,32.8342979 Z M12.5024667,8.45923404 C14.1696476,8.45923404 15.7381048,8.77448936 17.2085333,9.40570213 C18.6782667,10.0369149 19.9630667,10.9082553 21.0636286,12.0183191 C22.1621048,13.1297872 23.0248952,14.4273191 23.6506095,15.911617 C24.2756286,17.3973191 24.5884857,18.980617 24.5884857,20.6643191 C24.5884857,22.3480213 24.2756286,23.9320213 23.6506095,25.4170213 C23.0248952,26.9013191 22.1621048,28.1995532 21.0636286,29.309617 C19.9630667,30.420383 18.6782667,31.2973404 17.2085333,31.9404894 C15.7381048,32.5836383 14.1696476,32.9052128 12.5024667,32.9052128 C10.8352857,32.9052128 9.26126667,32.5836383 7.77971429,31.9404894 C6.29746667,31.2973404 5.01266667,30.420383 3.92461905,29.309617 C2.83587619,28.1995532 1.97378095,26.9013191 1.3376381,25.4170213 C0.700104762,23.9320213 0.382380952,22.3480213 0.382380952,20.6643191 L0.382380952,4.35529787 L6.04300952,4.35529787 L6.04300952,10.3528723 C6.96837143,9.74482979 7.97577143,9.27791489 9.06451429,8.95002128 C10.1525619,8.62282979 11.2990095,8.45923404 12.5024667,8.45923404 L12.5024667,8.45923404 Z M12.5024667,27.1877872 C13.3819429,27.1877872 14.2155333,27.0185745 15.0032381,26.6787447 C15.7902476,26.3403191 16.4792286,25.8727021 17.0694857,25.2758936 C17.6597429,24.6804894 18.1227714,23.9902979 18.4585714,23.2067234 C18.7936762,22.4238511 18.9619238,21.576383 18.9619238,20.6643191 C18.9619238,19.7522553 18.7936762,18.9047872 18.4585714,18.1219149 C18.1227714,17.3383404 17.6597429,16.6488511 17.0694857,16.0520426 C16.4792286,15.4559362 15.7902476,14.9883191 15.0032381,14.6491915 C14.2155333,14.310766 13.3819429,14.1401489 12.5024667,14.1401489 C11.5993524,14.1401489 10.7602,14.310766 9.98431429,14.6491915 C9.20912381,14.9883191 8.52570476,15.4559362 7.93614286,16.0520426 C7.34519048,16.6488511 6.8821619,17.3383404 6.5463619,18.1219149 C6.2105619,18.9047872 6.04300952,19.7522553 6.04300952,20.6643191 C6.04300952,21.576383 6.2105619,22.4238511 6.5463619,23.2067234 C6.8821619,23.9902979 7.34519048,24.6804894 7.93614286,25.2758936 C8.52570476,25.8727021 9.20912381,26.3403191 9.98431429,26.6787447 C10.7602,27.0185745 11.5993524,27.1877872 12.5024667,27.1877872 L12.5024667,27.1877872 Z" id="Fill-2"></path>
-                    <!-- fill="#000000" -->
-                    <path fill="#FFFFFF" d="M143.118238,2.76357447 C143.453343,2.76357447 143.75299,2.739 143.75299,2.33457447 C143.75299,2.00808511 143.45821,1.947 143.184286,1.947 L142.646171,1.947 L142.646171,2.76357447 L143.118238,2.76357447 L143.118238,2.76357447 Z M142.646171,4.24295745 L142.251276,4.24295745 L142.251276,1.6092766 L143.244076,1.6092766 C143.860057,1.6092766 144.164571,1.83817021 144.164571,2.35844681 C144.164571,2.82817021 143.873267,3.03459574 143.4888,3.08444681 L144.230619,4.24295745 L143.788448,4.24295745 L143.099467,3.10270213 L142.646171,3.10270213 L142.646171,4.24295745 L142.646171,4.24295745 Z M143.1238,4.82853191 C144.14719,4.82853191 144.954362,4.01968085 144.954362,2.92085106 C144.954362,1.83817021 144.14719,1.02440426 143.1238,1.02440426 C142.090676,1.02440426 141.281419,1.83817021 141.281419,2.92085106 C141.281419,4.01968085 142.090676,4.82853191 143.1238,4.82853191 L143.1238,4.82853191 Z M140.828819,2.92085106 C140.828819,1.6092766 141.880019,0.643851064 143.1238,0.643851064 C144.357848,0.643851064 145.409743,1.6092766 145.409743,2.92085106 C145.409743,4.24295745 144.357848,5.20978723 143.1238,5.20978723 C141.880019,5.20978723 140.828819,4.24295745 140.828819,2.92085106 L140.828819,2.92085106 Z" id="Fill-3"></path>
-                  </svg>
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id))
+            return;
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "//connect.facebook.net/it_IT/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- MODALE -->
+          <div class="modal-outer-box">
+            <div class="modal-inner-box">
+                <div class="modal-container">
+                    <div class="modal-close-area"></div>
+                    <div id="show-signup-modal" class="modal modal--small">
+                        <div class="modal_main">
+                            <div class="modal_head">
+                                <div class="modal_head_right">
+                                    <div class="btn btn--medium btn--outline btn--blue close_modal" data-close-modal >
+                                        <i class="icon-li-circle-cross btn_icon"></i>
+                                        <span class="btn_text">Chiudi</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="modal_content" data-signup-step="1">
+                                <a href="index.html#" id="goto_top"></a>
+                                <form id="form_registration" name="form_registration" action="javascript:void(0);" onsubmit="doRegistration(this);" autocomplete="off">
+                                    <div class="form_row show-on-step show-on-step-1">
+                                        <button type="button" class="btn btn--medium btn--fw btn-col btn--facebook" id="fb_reg">
+                                            <i class="iconWithText icon-fa-facebook"></i>Registrati con Facebook
+                                        </button>
+                                        <div class="copy--h6 color--meta text-center">Disattiva il blocco pop-up prima di accedere dai social</div>
+                                        <br>
+                                        <div class="copy--label-big color--meta text-divider">Oppure</div>
+                                    </div>
+                                    <div class="form_row show-on-step show-on-step-1">
+                                        <div class="form_label toggle-ttip">I tuoi dati</div>
+                                        <input type="hidden" name="id_facebook" />
+                                        <input type="hidden" name="id_linkedin" />
+                                        <input type="hidden" name="token" value="" />
+                                        <input  class="input input--big input--text input--fw" value="" name="name" placeholder="Nome" type="text" required>
+                                        <input class="input input--big input--text input--fw" value="" name="surname" placeholder="Cognome" type="text" required>
+                                        <input style="margin-top: 10px;" class="input input--big input--text input--fw" name="email" placeholder="Email" value="" required>
+                                        <input class="input input--big input--text input--fw" value="" name="confirm_email" placeholder="Conferma Email" type="text" required>
+                                        <input style="display:none" type="text" name="fakeusernameremembered"/>
+                                        <input style="display:none" type="password" name="fakepasswordremembered"/>
+                                    </div>
+                                    <div class="form_row show-on-step show-on-step-1">
+                                        <div class="form_label toggle-ttip cursor_hand">La tua password <i class="icon-fa-question-circle"></i><div class="ttip">Password lunga minimo 8 caratteri, con almeno una lettera maiuscola e una minuscola, e almeno un numero oppure uno dei seguenti caratteri speciali: !, @, #, $, %, ^, &, *</div></div>
+                                        <input class="input input--big input--text input--fw remove_client_data" name="password" type="password" value="" placeholder="Crea una password per BuBoost" required>
+                                    </div>
+                                    <div class="form_row show-on-step show-on-step-2">
+                                        <div class="form_label">Immagine del profilo</div>
+                                        <div  style="margin: auto; width: 210px;">
+                                            <div id="profile-picture-uploader" class="uploader"></div>
+                                            <div class="uploader hide" id="profile_fb_image">
+                                                <div class="cropControls cropControlsCrop reset_image">
+                                                    <i class="cropControlReset"></i>
+                                                </div>
+                                                <img class="croppedImg" />
+                                                <input type="hidden" name="use_fb_img" value="0" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form_row show-on-step show-on-step-2">
+                                        <div class="form_label toggle-ttip cursor_hand">Data di nascita <i class="icon-fa-question-circle"></i><div class="ttip">Registrazione consentita solo se hai più di 18 anni; la data di nascita non sarà visibile da nessuno, se non da te stesso.</div></div>
+                                        <select class="select select--big field-line" name="birthdate[day]" required>
+                                            <option selected disabled>GG</option>
+                                            <option value='01'>01</option><option value='02'>02</option><option value='03'>03</option><option value='04'>04</option><option value='05'>05</option><option value='06'>06</option><option value='07'>07</option><option value='08'>08</option><option value='09'>09</option><option value='10'>10</option><option value='11'>11</option><option value='12'>12</option><option value='13'>13</option><option value='14'>14</option><option value='15'>15</option><option value='16'>16</option><option value='17'>17</option><option value='18'>18</option><option value='19'>19</option><option value='20'>20</option><option value='21'>21</option><option value='22'>22</option><option value='23'>23</option><option value='24'>24</option><option value='25'>25</option><option value='26'>26</option><option value='27'>27</option><option value='28'>28</option><option value='29'>29</option><option value='30'>30</option><option value='31'>31</option>                                        </select>
+                                        <select class="select select--big field-line" name="birthdate[month]" required>
+                                            <option selected disabled>MM</option>
+                                            <option value='01'>01</option><option value='02'>02</option><option value='03'>03</option><option value='04'>04</option><option value='05'>05</option><option value='06'>06</option><option value='07'>07</option><option value='08'>08</option><option value='09'>09</option><option value='10'>10</option><option value='11'>11</option><option value='12'>12</option>                                        </select>
+                                        <select class="select select--big field-line" name="birthdate[year]" required>
+                                            <option selected disabled>YYYY</option>
+                                            <option value='1916'>1916</option><option value='1917'>1917</option><option value='1918'>1918</option><option value='1919'>1919</option><option value='1920'>1920</option><option value='1921'>1921</option><option value='1922'>1922</option><option value='1923'>1923</option><option value='1924'>1924</option><option value='1925'>1925</option><option value='1926'>1926</option><option value='1927'>1927</option><option value='1928'>1928</option><option value='1929'>1929</option><option value='1930'>1930</option><option value='1931'>1931</option><option value='1932'>1932</option><option value='1933'>1933</option><option value='1934'>1934</option><option value='1935'>1935</option><option value='1936'>1936</option><option value='1937'>1937</option><option value='1938'>1938</option><option value='1939'>1939</option><option value='1940'>1940</option><option value='1941'>1941</option><option value='1942'>1942</option><option value='1943'>1943</option><option value='1944'>1944</option><option value='1945'>1945</option><option value='1946'>1946</option><option value='1947'>1947</option><option value='1948'>1948</option><option value='1949'>1949</option><option value='1950'>1950</option><option value='1951'>1951</option><option value='1952'>1952</option><option value='1953'>1953</option><option value='1954'>1954</option><option value='1955'>1955</option><option value='1956'>1956</option><option value='1957'>1957</option><option value='1958'>1958</option><option value='1959'>1959</option><option value='1960'>1960</option><option value='1961'>1961</option><option value='1962'>1962</option><option value='1963'>1963</option><option value='1964'>1964</option><option value='1965'>1965</option><option value='1966'>1966</option><option value='1967'>1967</option><option value='1968'>1968</option><option value='1969'>1969</option><option value='1970'>1970</option><option value='1971'>1971</option><option value='1972'>1972</option><option value='1973'>1973</option><option value='1974'>1974</option><option value='1975'>1975</option><option value='1976'>1976</option><option value='1977'>1977</option><option value='1978'>1978</option><option value='1979'>1979</option><option value='1980'>1980</option><option value='1981'>1981</option><option value='1982'>1982</option><option value='1983'>1983</option><option value='1984'>1984</option><option value='1985'>1985</option><option value='1986'>1986</option><option value='1987'>1987</option><option value='1988'>1988</option><option value='1989'>1989</option><option value='1990'>1990</option><option value='1991'>1991</option><option value='1992'>1992</option><option value='1993'>1993</option><option value='1994'>1994</option><option value='1995'>1995</option><option value='1996'>1996</option><option value='1997'>1997</option><option value='1998'>1998</option>                                        </select>
+                                    </div>
+                                    <div class="form_row show-on-step show-on-step-2">
+                                        <div class="form_label">Sesso</div>
+                                        <select class="select select--big" name="sex" required>
+                                            <option selected disabled>Scegli</option>
+                                            <option value="0">Maschio</option>
+                                            <option value="1">Femmina</option>
+                                        </select>
+                                    </div>
+                                    <div class="form_row show-on-step show-on-step-2">
+                                        <span class="copy--h6 line--one"><input type="checkbox" name="privacy" value="1" /> Accetto le <a href="terms.php.html" target="tab">Condizioni d'Uso</a> e le <a href="privacy.php.html" target="_tab">Norme sulla Privacy</a> di BuBoost.</span>
+                                    </div>
+                                    <div class="form_row show-on-step show-on-step-1">
+                                        <div class="btn btn--blue btn--outline large-5 medium-5 small-12 left btn--big btn-col" onclick="reset();">
+                                            Reset
+                                        </div>
+                                        <div class="btn btn--blue large-6 medium-6 small-12 right btn--big btn-col" data-goto-signup-step="2">
+                                            Avanti
+                                            <input type="button" value="Avanti" class="fake_input" />
+                                        </div>
+                                    </div>
+                                    <div class="form_row show-on-step show-on-step-2">
+                                        <div class="btn btn--blue btn--outline large-5 medium-5 small-12 left btn--big btn-col"  data-goto-signup-step="1">
+                                            Indietro
+                                        </div>
+                                        <div class="btn btn--blue large-6 medium-6 small-12 right btn--big btn-col submit_reg">
+                                            Registrati
+                                            <input type="button" value="Registrati" class="fake_input" />
+                                        </div>
+                                    </div>
+                                    <div class="form_row text-center">
+                                        <div class="copy--label-big color--meta text-divider">Già registrato?</div>
+                                        <a href="index.html#" data-trigger-modal="#show-signin-modal">Accedi a BuBoost</a>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <nav class="home-nav float-left hide-for-small-only">
-                    <ul class="home-nav-menu">
-                        <li data-scroll-to="#info" class="button-link">Come funziona</li>
-                        <li data-scroll-to="#who" class="button-link show_pro">Testimonials</li>
-                        <li data-scroll-to="#pricing" class="button-link show_pro">Piani</li>
-                    </ul>
-                </nav>
+            </div>
+        </div>
+<!-- FINE MODALE -->
+
+        <div id="blocker"></div>
+        <section id="hero" class="section--dark section--fh">
+            <div class="homeHeader__left">
+                <div class="homeLogo" data-scroll-to="#hero">
+                    <img id="logo-white" src="https://buboost.blob.core.windows.net/bsf/assets/img/logo-white.png" data-0-top-top="opacity:1;" data--70-top-top="opacity:0;" data-anchor-target="#homeNav">
+                    <img id="logo" src="https://buboost.blob.core.windows.net/bsf/assets/img/logo.png" data-0-top-top="opacity:0;" data--70-top-top="opacity:1;" data-anchor-target="#homeNav">
+                </div>
             </div>
 
-            <div class="homeHeader__right hide-for-small-only">
-                <button id="signin-btn" data-trigger-modal="#show-signin-modal" class="btn btn--big btn--outline btn--white border-radius">
+            <div class="homeHeader__right">
+                <div class="mobile-signin-trigger" data-trigger-modal="#show-signin-modal">
+                    <i class="mobile-signin-trigger_icon btn_icon icon-li-enter"></i>
+                    Entra
+                </div>
+                <!-- <button id="signup-btn" data-trigger-modal="#show-signup-modal" class="btn btn--big btn--blue" data-0-top-top="opacity:0;" data--70-top-top="opacity:1;" data-anchor-target="#homeNav">
+                  Registrati gratis
+                </button> -->
+                <button id="signin-btn" data-trigger-modal="#show-signin-modal" class="btn btn--big btn--outline btn--white" data-0-top-top="color:rgba(255,255,255,1);box-shadow: inset 0 0 0 1px rgba(255,255,255,1);" data--70-top-top="color:rgba(53,185,206,1);box-shadow: inset 0 0 0 1px rgba(53,185,206,1);" data-anchor-target="#homeNav">
                   Accedi
                 </button>
-                <div data-scroll-to="#hero" class="button-link hide_pro do_show_pro">Sono un professionista</div>
-                <div data-scroll-to="#hero" class="button-link hide show_pro do_hide_pro">Cerco un professionista</div>
             </div>
-          </div>
 
-            <div class="hero__table">
-
-                <!-- CERCO PROFESSIONISTI -->
+            <nav id="homeNav" data-0-top-top="color:rgba(255,255,255,1);box-shadow: 0 1px 0 rgba(255,255,255,0.3),0 -1px 0 rgba(255,255,255,0.3);background:rgba(255,255,255,0);" data--70-top-top="color:rgba(119,119,119,1);box-shadow: 0 1px 0 rgba(0,0,0,0.1),0 -1px 0 rgba(0,0,0,0.1);background:rgba(255,255,255,1);">
+                <ul>
+                    <li data-scroll-to="#info" class="show_pro hide">Come funziona</li>
+                    <li data-scroll-to="#video" class="hide">Video di presentazione</li>
+                    <li data-scroll-to="#who" class="hide show_pro">Chi può usarlo</li>
+                    <li data-scroll-to="#pricing" class="hide show_pro">Piani</li>
+                    <li data-scroll-to="#hero" class="hide_pro do_show_pro">Sei un professionista?</li>
+                    <li data-scroll-to="#hero" class="hide show_pro do_hide_pro">Cerchi un professionista?</li>
+                </ul>
+            </nav>
+            <div class="hero__table" data-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;" data-anchor-target="#hero">
                 <div class="hero__table__inner hide_pro">
-                    <div class="hero-heading">
-                      <h1 class="home-h1">Trova il professionista o freelance giusto e completa il tuo progetto.</h1>
-                      <h3 class="hero__subtitle home--h3">BuBoost è la piattaforma digitale che ti permette di trovare il professionista che fa al caso tuo.
-                        Vuoi offrire i tuoi servizi come professionista? <a href="#" data-scroll-to="#info">Scopri di più</a>.</h3>
-                      <div id="show-video" class="fancybox fancybox.iframe video-button" href="https://www.youtube.com/embed/xC2O6Woo2-Y?autoplay=1">
-                            Guarda il video <img src="img/icon-play.png" alt="">
-                      </div>
+                    <h1 class="hero__title">Professionisti e freelancer a portata di click</h1>
+                    <h3 class="hero__subtitle home--h3">Con BuBoost trovi in modo facile, gratuito e veloce…</h3>
+                    <div id="fakeSearch">
+                        <i class="iconWithText icon-li-magnifier home--h3"></i>
+                        <div id="fakeSearch_text" class="home--h3"></div>
                     </div>
                     <div id="hero__buttons" class="row">
                         <form action="javascript:void(0);" id="form_services" onsubmit="gotoSearch(this);">
-                              <div class="row">
-                                <div class="medium-9 small-12 column">
-                                  <div class="search_field search_field--autocomplete float-left" style="width: 70%">
-                                      <input style="border-radius: 12px 0 0 12px;" id="jobs-autocomplete" name="job" class="input input--text input--big fw home-input" type="text" placeholder="Prestazione, qualifica..." required>
-                                      <input id="jobs-type" name="job-type" type="hidden" value="-1">
-                                  </div>
-                                  <div class="search_field search_field--autocomplete float-left" style="width: 30%">
-                                    <input style="border-radius: 0 12px 12px 0;" id="ext-location-autocomplete" name="ext-location" class="input input--text input--big fw home-input" type="text" placeholder="Città...">
+                            <div class="small-12 medium-12 large-12 columns" style="margin-bottom: 10px;">
+                                <div class="search_field search_field--autocomplete inputWithIcon inputWithIcon--before inputWithIcon--big medium-12 small-12">
+                                    <i class="icon-li-tools input_icon input_icon--before icon--h4 color--meta" style="line-height: 40px;"></i>
+                                    <input style="text-transform: uppercase;" id="jobs-autocomplete" name="job" class="input input--text input--big fw" type="text" placeholder="Cerca un'attività…" required>
+                                    <input id="jobs-type" name="job-type" type="hidden" value="-1">
+                                </div>
+                                <div class="search_field search_field--autocomplete inputWithIcon inputWithIcon--before inputWithIcon--big medium-7 small-12 left">
+                                    <i id="arrow_location" class="icon-li-location input_icon input_icon--before icon--h4 color--meta" style="line-height: 40px;"></i>
+                                    <input id="ext-location-autocomplete" name="ext-location" class="input input--text input--big fw" type="text" placeholder="Città...">
                                     <span class="search-geocode">
                                         <input type="hidden" name="locality" />
                                     </span>
-                                  </div>
                                 </div>
-                                <div class="search_field medium-3 small-12 column">
-                                    <div class="btn btn--blue btn--big border-radius home-input">Cerca</div>
+                                <div class="search_field btn btn--blue btn--big medium-4 small-12 right">
+                                    <i class="icon-li-magnifier iconWithText btn_icon"></i> Cerca
                                     <button id="search_jobs" type="submit" value="Cerca" class="fake_input">
                                 </div>
-                              </div>
+                            </div>
+                        </form>
+                        <form action="javascript:void(0);">
+                            <div class="small-6 left columns">
+                                <button data-trigger-modal="#show-signup-modal" class="btn btn--big btn--blue btn--fw" id="do_reg">Registrati gratis</button>
+                            </div>
+                            <div class="small-6 right columns">
+                                <button data-trigger-modal="#show-signin-modal" class="btn btn--big btn--blue btn--fw" id="do_reg">Accedi</button>
+                            </div>
                         </form>
                     </div>
                     <ul class="hide-for-large-up" style="width: 100%; position: absolute; bottom: -6px;">
-                        <li data-scroll-to="#hero" class="hide_pro do_show_pro btn btn--blue btn--small btn--fw" style="background-color: #4DAD4D; height: 40px; line-height: 40px;">Sono un professionista</li>
+                        <li data-scroll-to="#hero" class="hide_pro do_show_pro btn btn--blue btn--small btn--fw" style="background-color: rgba(60,60,60,1);">Sei un professionista?</li>
                     </ul>
                 </div>
-
-                <!-- SONO UN PROFESSIONISTA -->
                 <div class="hero__table__inner hide show_pro">
-                  <div class="hero-heading">
-                    <h1 class="home-h1">Accedi a BuBoost, promuovi la tua attività e trova nuovi clienti.</h1>
-                    <h3 class="hero__subtitle home--h3">Come professionista o freelance accedi a BuBoost, raggiungi i migliori clienti e approfitta delle migliori opportunità di collaborazione con altri privati o aziende.</h3>
-                    <div class="row">
-                      <div class="inline-block">
-                        <div class="btn btn--blue home-input btn--fw">COME FUNZIONA</div>
-                      </div>
-                      <div class="inline-block">
-                        <div class="btn btn--blue home-input btn--fw">INIZIA ORA GRATIS</div>
-                      </div>
+                    <h1 class="hero__title">Il tuo business a portata di click</h1>
+                    <div id="hero__buttons" class="row">
+                            <div class="small-12 medium-12 large-12 columns">
+                                <button data-trigger-modal="#show-signup-modal" class="btn btn--big btn--blue btn--fw" id="do_reg">Registrati gratis</button>
+                            </div>
+                            <div class="small-12 medium-12 large-12 columns">
+                                &nbsp;
+                            </div>
+                            <div class="small-12 medium-12 large-12 columns">
+                                <button data-trigger-modal="#show-signin-modal" class="btn btn--big btn--blue btn--fw" id="do_reg">Accedi</button>
+                            </div>
+                        </form>
                     </div>
-                  </div>
-                  <ul class="show-for-small-only" style="width: 100%; position: absolute; bottom: -6px;">
-                      <li data-scroll-to="#hero" class="show_pro do_hide_pro btn btn--blue btn--small btn--fw" style="background-color: #4DAD4D; height: 40px; line-height: 40px;">Cerco un professionista</li>
-                  </ul>
+                    <ul class="show-for-small-only" style="width: 100%; position: absolute; bottom: -6px;">
+                        <li data-scroll-to="#hero" class="show_pro do_hide_pro btn btn--blue btn--small btn--fw" style="background-color: rgba(60,60,60,1);">Cerchi un professionista?</li>
+                    </ul>
                 </div>
             </div>
         </section>
         <section id="info" class="section">
-            <!-- CERCO PROFESSIONISTI -->
             <h1 class="home--h1 section__title hide_pro">Come funziona</h1>
             <div class="info__row row large-collapse hide_pro">
                 <div class="info__col info__col--left small-12 medium-6 large-6 columns">
@@ -133,7 +263,10 @@
                         <div class="video__table" data-bottom-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;">
                             <i class="video__table__gigacon icon-fa-play"></i>
                             <div class="video__table__inner">
-
+                                <a id="show-video" class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/xC2O6Woo2-Y?autoplay=1">
+                                    <h2 class="video__table__title home--h2">Guarda il video di presentazione</h2>
+                                    <h6 class="video__table__desc home--h6">01:22</h6>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -157,7 +290,6 @@
                     </div>
                 </div>
             </div>
-            <!-- SONO UN PROFESSIONISTA -->
             <h1 class="home--h1 section__title show_pro hide">Come funziona</h1>
             <div id="info_pro" class="info__row row large-collapse hide show_pro">
                 <div class="info__col info__col--left small-12 medium-6 large-6 columns">
@@ -191,8 +323,17 @@
                 </div>
             </div>
         </section>
-
-        <!-- TESTIMONIALS -->
+        <section id="video-old" class="section section--dark section--fh hide">
+            <div class="video__table" data-bottom-top="background-position: 50% 0px;" data-top-bottom="background-position: 50% -100px;">
+                <i class="video__table__gigacon icon-fa-play"></i>
+                <div class="video__table__inner">
+                    <a id="show-video" class="fancybox fancybox.iframe" href="https://www.youtube.com/embed/xC2O6Woo2-Y?autoplay=1">
+                        <h2 class="video__table__title home--h2">Guarda il video di presentazione</h2>
+                        <h6 class="video__table__desc home--h6">01:22</h6>
+                    </a>
+                </div>
+            </div>
+        </section>
         <section id="who" class="section hide show_pro" data-bottom="opacity:0;" data--200-center-bottom="opacity:1;" data-anchor-target="#hero">
             <h1 class="home--h1 who__title">Chi può usarlo</h1>
             <h3 class="home--h3 who__subtitle">Ascolta l’esperienza diretta di chi lo ha già provato!</h3>
@@ -227,8 +368,6 @@
                 </div>
             </div>
         </section>
-
-        <!-- PIANI -->
         <section id="pricing" class="section hide show_pro" data-bottom-top="opacity:0;" data--500-bottom-top="opacity:1;">
             <h1 class="home--h1 pricing__title">Piani di abbonamento</h1>
             <div class="bbfree" data-bottom-top="opacity:0;transform[swing]:translateY(100px)" data-center-top="opacity:1;transform[swing]:translateY(0)">
@@ -330,114 +469,6 @@
             </div>
         </section>
 
-        <!-- MODALE -->
-        <div class="modal-outer-box">
-          <div class="modal-inner-box">
-              <div class="modal-container">
-                  <div class="modal-close-area"></div>
-                  <div id="show-signup-modal" class="modal modal--small">
-                      <div class="modal_main">
-                          <div class="modal_head">
-                              <div class="modal_head_right">
-                                  <div class="btn btn--medium btn--outline btn--blue close_modal" data-close-modal >
-                                      <i class="icon-li-circle-cross btn_icon"></i>
-                                      <span class="btn_text">Chiudi</span>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="modal_content" data-signup-step="1">
-                              <a href="index.html#" id="goto_top"></a>
-                              <form id="form_registration" name="form_registration" action="javascript:void(0);" onsubmit="doRegistration(this);" autocomplete="off">
-                                  <div class="form_row show-on-step show-on-step-1">
-                                      <button type="button" class="btn btn--medium btn--fw btn-col btn--facebook" id="fb_reg">
-                                          <i class="iconWithText icon-fa-facebook"></i>Registrati con Facebook
-                                      </button>
-                                      <div class="copy--h6 color--meta text-center">Disattiva il blocco pop-up prima di accedere dai social</div>
-                                      <br>
-                                      <div class="copy--label-big color--meta text-divider">Oppure</div>
-                                  </div>
-                                  <div class="form_row show-on-step show-on-step-1">
-                                      <div class="form_label toggle-ttip">I tuoi dati</div>
-                                      <input type="hidden" name="id_facebook" />
-                                      <input type="hidden" name="id_linkedin" />
-                                      <input type="hidden" name="token" value="" />
-                                      <input  class="input input--big input--text input--fw" value="" name="name" placeholder="Nome" type="text" required>
-                                      <input class="input input--big input--text input--fw" value="" name="surname" placeholder="Cognome" type="text" required>
-                                      <input style="margin-top: 10px;" class="input input--big input--text input--fw" name="email" placeholder="Email" value="" required>
-                                      <input class="input input--big input--text input--fw" value="" name="confirm_email" placeholder="Conferma Email" type="text" required>
-                                      <input style="display:none" type="text" name="fakeusernameremembered"/>
-                                      <input style="display:none" type="password" name="fakepasswordremembered"/>
-                                  </div>
-                                  <div class="form_row show-on-step show-on-step-1">
-                                      <div class="form_label toggle-ttip cursor_hand">La tua password <i class="icon-fa-question-circle"></i><div class="ttip">Password lunga minimo 8 caratteri, con almeno una lettera maiuscola e una minuscola, e almeno un numero oppure uno dei seguenti caratteri speciali: !, @, #, $, %, ^, &, *</div></div>
-                                      <input class="input input--big input--text input--fw remove_client_data" name="password" type="password" value="" placeholder="Crea una password per BuBoost" required>
-                                  </div>
-                                  <div class="form_row show-on-step show-on-step-2">
-                                      <div class="form_label">Immagine del profilo</div>
-                                      <div  style="margin: auto; width: 210px;">
-                                          <div id="profile-picture-uploader" class="uploader"></div>
-                                          <div class="uploader hide" id="profile_fb_image">
-                                              <div class="cropControls cropControlsCrop reset_image">
-                                                  <i class="cropControlReset"></i>
-                                              </div>
-                                              <img class="croppedImg" />
-                                              <input type="hidden" name="use_fb_img" value="0" />
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div class="form_row show-on-step show-on-step-2">
-                                      <div class="form_label toggle-ttip cursor_hand">Data di nascita <i class="icon-fa-question-circle"></i><div class="ttip">Registrazione consentita solo se hai più di 18 anni; la data di nascita non sarà visibile da nessuno, se non da te stesso.</div></div>
-                                      <select class="select select--big field-line" name="birthdate[day]" required>
-                                          <option selected disabled>GG</option>
-                                          <option value='01'>01</option><option value='02'>02</option><option value='03'>03</option><option value='04'>04</option><option value='05'>05</option><option value='06'>06</option><option value='07'>07</option><option value='08'>08</option><option value='09'>09</option><option value='10'>10</option><option value='11'>11</option><option value='12'>12</option><option value='13'>13</option><option value='14'>14</option><option value='15'>15</option><option value='16'>16</option><option value='17'>17</option><option value='18'>18</option><option value='19'>19</option><option value='20'>20</option><option value='21'>21</option><option value='22'>22</option><option value='23'>23</option><option value='24'>24</option><option value='25'>25</option><option value='26'>26</option><option value='27'>27</option><option value='28'>28</option><option value='29'>29</option><option value='30'>30</option><option value='31'>31</option>                                        </select>
-                                      <select class="select select--big field-line" name="birthdate[month]" required>
-                                          <option selected disabled>MM</option>
-                                          <option value='01'>01</option><option value='02'>02</option><option value='03'>03</option><option value='04'>04</option><option value='05'>05</option><option value='06'>06</option><option value='07'>07</option><option value='08'>08</option><option value='09'>09</option><option value='10'>10</option><option value='11'>11</option><option value='12'>12</option>                                        </select>
-                                      <select class="select select--big field-line" name="birthdate[year]" required>
-                                          <option selected disabled>YYYY</option>
-                                          <option value='1916'>1916</option><option value='1917'>1917</option><option value='1918'>1918</option><option value='1919'>1919</option><option value='1920'>1920</option><option value='1921'>1921</option><option value='1922'>1922</option><option value='1923'>1923</option><option value='1924'>1924</option><option value='1925'>1925</option><option value='1926'>1926</option><option value='1927'>1927</option><option value='1928'>1928</option><option value='1929'>1929</option><option value='1930'>1930</option><option value='1931'>1931</option><option value='1932'>1932</option><option value='1933'>1933</option><option value='1934'>1934</option><option value='1935'>1935</option><option value='1936'>1936</option><option value='1937'>1937</option><option value='1938'>1938</option><option value='1939'>1939</option><option value='1940'>1940</option><option value='1941'>1941</option><option value='1942'>1942</option><option value='1943'>1943</option><option value='1944'>1944</option><option value='1945'>1945</option><option value='1946'>1946</option><option value='1947'>1947</option><option value='1948'>1948</option><option value='1949'>1949</option><option value='1950'>1950</option><option value='1951'>1951</option><option value='1952'>1952</option><option value='1953'>1953</option><option value='1954'>1954</option><option value='1955'>1955</option><option value='1956'>1956</option><option value='1957'>1957</option><option value='1958'>1958</option><option value='1959'>1959</option><option value='1960'>1960</option><option value='1961'>1961</option><option value='1962'>1962</option><option value='1963'>1963</option><option value='1964'>1964</option><option value='1965'>1965</option><option value='1966'>1966</option><option value='1967'>1967</option><option value='1968'>1968</option><option value='1969'>1969</option><option value='1970'>1970</option><option value='1971'>1971</option><option value='1972'>1972</option><option value='1973'>1973</option><option value='1974'>1974</option><option value='1975'>1975</option><option value='1976'>1976</option><option value='1977'>1977</option><option value='1978'>1978</option><option value='1979'>1979</option><option value='1980'>1980</option><option value='1981'>1981</option><option value='1982'>1982</option><option value='1983'>1983</option><option value='1984'>1984</option><option value='1985'>1985</option><option value='1986'>1986</option><option value='1987'>1987</option><option value='1988'>1988</option><option value='1989'>1989</option><option value='1990'>1990</option><option value='1991'>1991</option><option value='1992'>1992</option><option value='1993'>1993</option><option value='1994'>1994</option><option value='1995'>1995</option><option value='1996'>1996</option><option value='1997'>1997</option><option value='1998'>1998</option>                                        </select>
-                                  </div>
-                                  <div class="form_row show-on-step show-on-step-2">
-                                      <div class="form_label">Sesso</div>
-                                      <select class="select select--big" name="sex" required>
-                                          <option selected disabled>Scegli</option>
-                                          <option value="0">Maschio</option>
-                                          <option value="1">Femmina</option>
-                                      </select>
-                                  </div>
-                                  <div class="form_row show-on-step show-on-step-2">
-                                      <span class="copy--h6 line--one"><input type="checkbox" name="privacy" value="1" /> Accetto le <a href="terms.php.html" target="tab">Condizioni d'Uso</a> e le <a href="privacy.php.html" target="_tab">Norme sulla Privacy</a> di BuBoost.</span>
-                                  </div>
-                                  <div class="form_row show-on-step show-on-step-1">
-                                      <div class="btn btn--blue btn--outline large-5 medium-5 small-12 left btn--big btn-col" onclick="reset();">
-                                          Reset
-                                      </div>
-                                      <div class="btn btn--blue large-6 medium-6 small-12 right btn--big btn-col" data-goto-signup-step="2">
-                                          Avanti
-                                          <input type="button" value="Avanti" class="fake_input" />
-                                      </div>
-                                  </div>
-                                  <div class="form_row show-on-step show-on-step-2">
-                                      <div class="btn btn--blue btn--outline large-5 medium-5 small-12 left btn--big btn-col"  data-goto-signup-step="1">
-                                          Indietro
-                                      </div>
-                                      <div class="btn btn--blue large-6 medium-6 small-12 right btn--big btn-col submit_reg">
-                                          Registrati
-                                          <input type="button" value="Registrati" class="fake_input" />
-                                      </div>
-                                  </div>
-                                  <div class="form_row text-center">
-                                      <div class="copy--label-big color--meta text-divider">Già registrato?</div>
-                                      <a href="index.html#" data-trigger-modal="#show-signin-modal">Accedi a BuBoost</a>
-                                  </div>
-                              </form>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-        <!--  MODALS  -->
         <div class="modal-outer-box">
             <div class="modal-inner-box">
                 <div class="modal-container">
