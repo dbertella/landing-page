@@ -162,7 +162,10 @@
   color: #666;
   line-height: 1.2;
 }
-
+.small-text {
+  font-size: 14px;
+  color: #C0C0C0
+}
 .footer-hero {
   position: relative;
   width: 100%;
@@ -190,6 +193,7 @@
   display: inline-block;
   margin: 50px 0;
   padding: 30px;
+  max-width: 450px;
   background: #fff;
   box-shadow: 0 2px 88px rgba(0, 0, 0, 0.1);
 }
