@@ -8,6 +8,9 @@
   background: #35B9CE;
 }
 
+.hero__table__inner {
+  padding: 70px !important;
+}
 .home-header {
   position: fixed;
   top: 0;
@@ -180,6 +183,28 @@
   position: relative;
   z-index: 1;
 }
-.footer-title {
+.footer-hero-title {
   font-size: 30px;
+}
+.home-pricing {
+  display: inline-block;
+  margin: 50px 0;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 2px 88px rgba(0, 0, 0, 0.1);
+}
+.footer__sidemenu li a,
+.footer__copy,
+.footer__address {
+  color: #999;
+}
+.footer-title {
+  font-size: 14px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+@media only screen and (max-width: 1024px) {
+  #hero {
+    height: auto;
+  }
 }
