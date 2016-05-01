@@ -1,4 +1,4 @@
-.grey {
+.bg-grey {
   background: #FAFAFA;
 }
 .green {
@@ -8,6 +8,60 @@
   background: #35B9CE;
 }
 
+.home-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  padding: 15px;
+  border-bottom: 1px solid transparent;
+  transition: all 0.27s;
+}
+.logo-text {
+  fill: #fff;
+  transition: fill 0.27s;
+}
+.navFixed .home-header {
+  background: #fff;
+  color: #666;
+  border-bottom-color: #E6E6E6;
+}
+.navFixed .logo-text {
+  fill: #000;
+}
+.home-header .btn--white {
+  transition: all 0.27s;
+}
+
+.home-nav-menu li {
+  position: relative;
+}
+.home-nav-menu li:after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 10%;
+  right: 10%;
+  height: 5px;
+  background: #fff;
+  opacity: 0;
+  transition: opacity 0.27s;
+}
+.home-nav-menu li:hover:after{
+  opacity: 1;
+}
+.navFixed .btn--white {
+  border-color: #4DAD4D;
+  background: #4DAD4D;
+}
+.navFixed .btn--white:hover {
+  background: #2A6D2A !important;
+}
+.navFixed .home-nav-menu li:after {
+  bottom: -19px;
+  background: #4DAD4D;
+}
 .home-logo {
 }
 .home-nav {
@@ -61,4 +115,71 @@
 }
 .inline-block {
   display: inline-block;
+}
+
+.btn--white-full {
+  background: #fff;
+  color: #35B9CE;
+}
+
+.section-title {
+  font-size: 30px;
+  color: #666;
+}
+.section-eyelet {
+  font-size: 16px;
+  color: #999;
+  font-weight: 300;
+}
+.section-sub-title {
+  font-size: 20px;
+  color: #999;
+}
+.section-icon-img {
+  height: 140px;
+  position: relative;
+}
+.section-icon-img img {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.section-icon-title {
+  margin: 15px 0 0;
+  font-size: 24px;
+  color: #797979;
+}
+.section-icon-sub-title {
+  margin-top: 0;
+  font-size: 24px;
+  color: #C0C0C0;
+}
+.section-icon-text {
+  font-size: 18px;
+  color: #666;
+  line-height: 1.2;
+}
+
+.footer-hero {
+  position: relative;
+  width: 100%;
+  padding: 90px 0;
+  background-image: url("https://buboost.blob.core.windows.net/bsf/assets/img/home_bg.jpg");
+}
+.footer-hero:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 0;
+}
+.footer-hero > div {
+  position: relative;
+  z-index: 1;
+}
+.footer-title {
+  font-size: 30px;
 }
