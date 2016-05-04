@@ -207,8 +207,44 @@
   color: #fff;
   margin-bottom: 20px;
 }
+
 @media only screen and (max-width: 1024px) {
   #hero {
     height: auto;
+  }
+
+  .home-h1{
+    font-size: 28px;
+  }
+  .footer-title {
+    margin-top: 10px;
+  }
+  .footer__sidemenu {
+    margin-top: 0;
+  }
+  .footer__sidemenu li {
+    margin-bottom:2px;
+    text-align: left;
+  }
+}
+
+.footer-hero {
+  background-image: url("/assets/img/home_bg_pro.jpg");
+  background-size: cover;
+  background-position: center center
+}
+.footer-hero.is_pro {
+  background-image: url("/assets/img/home_bg.jpg");
+}
+
+.hero__table {
+  background-position: center center;
+}
+.section-icon{
+  margin-bottom:50px;
+}
+@media only screen and (max-width: 520px) {
+  .home-header .button-link {
+    display: none;
   }
 }
